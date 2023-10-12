@@ -98,9 +98,9 @@ Users can flag public content, at a cost of 1 coin (like any other public action
 - Spreading disinformation
 - Any of the activities listed under *Admin Moderation* below
 
-When the number of flaggings across all the user's content over the last 30 days equals or exceeds 10 times the user's seniority coins, user is placed under temporary suspension: their content is hidden from everyone except their followers and user is prevented from using any coins and therefore engaging with the community; however they can still send direct messages to their followers, which don't cost any coins (i.e. ‘hey friend I’ve been unfairly suspended please send support’).  
+When the number of flaggings across all the user's content over the last 30 days equals or exceeds 10 times the user's seniority coins, user is placed under temporary suspension: their content is hidden from everyone and user is prevented from using any coins and therefore engaging with the community; however they can still send direct messages to their followers, which don't cost any coins (i.e. ‘hey friend I’ve been unfairly suspended please send support’); their followers in turn can ask any other user to join in supporting as well.  Supporting users, acknowledging they may be exposed to offensive content, will be able to load and review all flagged posts in question, and choose to support or not support each one in turn.  
 
-Same number of supports received ends user's temporary suspension.
+Same number of supports received ends user's temporary suspension and resets both flag and support counts to 0.
 
 11x seniority coins suspend again and same number of supports unsuspend again  
 12x seniority coins suspend again and same number of supports unsuspend again  
