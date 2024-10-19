@@ -1,10 +1,10 @@
 # Platform Rules
 
-This **Giist Platform Operating Rules and Procedures** document is a supplement to our published **Acceptable Use Policy** that every user must acknowledge and accept as a condition of service.  Changes to rules in this document do not need to be accepted by user for continued use of the platform.  However every change to the rules here will also be published by the administrator (user *giistAdmin*) in the *Giist Announcements* topic.  Users are encouraged to follow updates there.
+This **Giist Platform Operating Rules and Procedures** document is a supplement to our published **Acceptable Use Policy** (viewable [here](https://giist.social/acceptable-use-policy/)) that every user must acknowledge and accept as a condition of service.  Changes to rules in this document do not need to be accepted by user for continued use of the platform.  However every change to the rules here will also be published by the administrator (user *giistAdmin*) in the *Giist Announcements* topic, so users are encouraged to follow those updates.
 
-Full history of this document is kept in this repository so anyone can see what rules were effective at any point and how they have changed over time.
+Additionally, this repository will remain public, and full change history always available, so anyone can see the current rules, what rules were effective at any point, and how they have changed over time.
 
-Anyone can open a Pull Request to suggest and discuss rule changes.
+Anyone with a Github account can open a Pull Request to suggest and discuss rule changes.
 
 ## Gaining Access to the Platform
 
@@ -18,7 +18,7 @@ User will be required to authenticate when accessing Giist Social with the same 
 
 #### Get invited
 
-Users can invite other users provided they have invites available.  Invites are earned by getting 30 net likes (likes - dislikes) on their content.
+Users can invite other users provided they have invites available.  Invites are earned by getting as many net likes (likes - dislikes) on their content as their current 'seniority coins' (see below).
 
 When sending an invite, user can choose to transfer any of their available coins or invites to the new user.
 
@@ -26,7 +26,7 @@ When sending an invite, user can choose to transfer any of their available coins
 
 As a last resort, if neither option above is available, user can pay $25 to gain access.  This fee is needed to:
 
-- Slow down troll farms and bots
+- Slow down troll farms and bots entering the service
 - Establish identity (important since not being 'vouched for' by an inviting user or vetted by the platform)
 - Encourage users inviting other users, which establishes a trust graph
 
@@ -49,11 +49,11 @@ Each of the following actions use 1 coin unless otherwise specified; the number 
 - **video** : 1 coin per minute
 - **like**: like a post
 - **dislike**: dislike a post
-- **repost**: share someone else's post with your followers (1 coin regardless of post length)
+- **repost**: share someone else's post with your followers (1 coin regardless of post or embedded video length)
 - **suggest**: suggest a change to someone else's post
-- **boost**: help bubble replies to top of inbox
-- **message**: send message directly and privately to another user (but free when recipient follows you)
-- **flag**: flag post for not being conducive to knowledge-building
+- **boost**: help bubble replies to the top (in the post's *Replies-All* tab)
+- **message**: send message directly to another user (but free when recipient follows you)
+- **flag**: flag post for violating platform rules as specified in this document
 - **support**: help user out of suspension
 
 ### Free coin allocation increases with seniority
@@ -79,26 +79,32 @@ Current coin balances are viewable any time in the website and app's 'Coin Jar'
 - having a reply featured that you wrote: 2 coins - get back the one used to write + 1 reward (except when replying to your own post)
 - having a reply featured that you boosted : 1 coin - get back the one used to boost
 - having a suggested edit accepted: 3 coins - get back the one used to suggest + 2 reward
-- having a flagged user be permanently suspended (not enough support in time): 1 coin per flagged user - get back the one used to flag
+- having a flagged user be permanently suspended (not enough support in time): 1 coin per flagged post - get back the one used to flag
 
 ### Buy coins:
 
-User can buy 100 coins for $10, storing up to 200 at any time, but can only use as many purchased coins in a given day as earned by seniority (see below), at most doubling their impact/reach.
+User can buy 100 coins for $10, storing up to 200 at any time, but can only use as many purchased coins in a given day as earned by seniority (see above), at most doubling their impact/reach.
 
 ### Gift coins with invite
 
-Users can gift some or all of their currently available coins to a new user by specifying how many coins to transfer when creating the invitation. 
+Users can gift some or all of their currently available coins to a new user by specifying how many coins to transfer when creating the invitation.
 
-## Community Moderation 
+## Community Moderation
 
-Users can flag public content, at a cost of 1 coin (like any other public action) for not being conducive to knowledge-building: 
+Users can flag public content, at a cost of 1 coin (like any other public action) for not being conducive to knowledge-building or for being harmful to the community, such as:
 
-- Making abusive or demeaning comments
-- Making egregiously false or easily disprovable claims
-- Spreading disinformation
+- Making abusive or grossly demeaning comments
+- Making egregiously false and easily disprovable claims (misinformation)
+- Spreading knowingly false claims (disinformation)
+- Marketing products or services of dubious value (i.e. 'scams')
+- Sending unwelcome messages after being asked to stop
 - Any of the activities listed under *Admin Moderation* below
 
+<<<<<<< HEAD
 When the number of flaggings across all the user's content over the last 30 days equals or exceeds 10 times the user's seniority coins, user is placed under temporary suspension: their content is hidden from everyone and user is prevented from using any coins and therefore engaging with the community; however they can still send direct messages to their followers, which don't cost any coins (i.e. ‘hey friend I’ve been unfairly suspended please send support’); their followers in turn can ask any other user to join in supporting as well.  Supporting users, acknowledging they may be exposed to offensive content, will be able to load and review all flagged posts in question, and choose to support or not support each one in turn.  
+=======
+When the number of flaggings across all the user's content over the last 30 days equals or exceeds 10 times the user's seniority coins, user is placed under temporary suspension: their content is hidden from everyone and user is prevented from using any coins and therefore engaging with the community; however they can still send direct messages to their followers, which don't cost any coins (e.g. ‘hey friend I’ve been unfairly suspended please send support’); their followers in turn can ask any other user to join in supporting as well.  Supporting users, acknowledging they may be exposed to offensive content, will be able to load and review all flagged posts in question, and choose to support or not support each one in turn.
+>>>>>>> 093a4c4 (Clarify moderation rules; change coins required to earn an invite)
 
 Same number of supports received ends user's temporary suspension and resets both flag and support counts to 0.
 
@@ -115,22 +121,22 @@ To suspend first time, based on different levels of seniority:
 - user in platform 2 months has 18 coins, 180 flags needed
 - user in platform 2 years has 114 coins, 1140 flags needed
 
-## Admin Moderation 
+## Admin Moderation
 
 Site administrators can unilaterally and without recourse take action upon a single occurence of the following, whether flagged by users or found via our own manual or automated procedures (e.g. AI-powered image classification)
 
-- Pornography in public post
-- Incitement to violence in public post
-- Child pornography or abuse in any content (post, message or note)
-- Threatening another user in public post or direct message
-- Sharing copyrighted material without authorization in public post
+- Media showing nudity or depicting sex acts, in public post (posts in private topics exempted)
+- Child sexual abuse (CSAM) in any content (post, message or note)
+- Threatening harm on anyone in post or message
+- Inciting violence in post or message
+- Sharing copyrighted material without authorization in public post (posts in private topics with under 1000 members exempted)
 - Attempting to get around platform rules by 'gaming the system'
-- Repeatedly misrepresenting user's actions or content when flagging them
+- Repeatedly misrepresenting another user's actions or content when flagging them
 
 Actions taken could be any combination of the following, solely at the administrator's discretion:
 
 - Remove the offending content
 - Give user a warning
-- Suspend user from logging in and using the service for any period of time
-- Suspend user from using coins for any period of time
-- Terminating user from service indefinitely (any purchased coins are forfeited)
+- Disallow user from using coins for any period of time
+- Disallow user from logging in and using the service for any period of time
+- Terminating user from service indefinitely (any purchased or earned coins or invites are forfeited)
