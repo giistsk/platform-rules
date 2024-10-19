@@ -117,6 +117,24 @@ To suspend first time, based on different levels of seniority:
 - user in platform 2 months has 18 coins, 180 flags needed
 - user in platform 2 years has 114 coins, 1140 flags needed
 
+## Post Truthfulness Moderation
+
+When a post is flagged as misinformation or disinformation, it contributes to the community moderation of the user as detailed above, and also it starts a moderation process on the post itself as follows:
+
+1. **After being flagged by more than 10 users AND 10% of its viewers** it stops being included in slices (but not saved post slices) and searches, and when loaded directly or in a saved post slice it displays a warning message. Post writer is sent a message informing them that:
+    - post has reduced visibility and otherwise is displaying a warning
+    - a 20 coin penalty has been imposed on their account (their free daily seniority coins are reduced by 20 or zeroed out if they have less than 20)
+    - if they wish to contest the penalty, they must edit the post to address the claims, by doing one of these:
+        - leave post as is and write a rebuttal, in the change description
+        - edit post to add more evidence or sources supporting the claim
+        - edit post to remove the disputed information, and explain why this happened or simply apologize, in the change description
+3. **A message is sent to every user that viewed the flagged post** with the post quoted, highlighting the changes and displaying the change description, asking them to optionally respond by clicking 1 of these 3 buttons:
+    1. flagged post is actually fine
+    2. update, rebuttal and/or apology is adequate, post should be considered cured
+    3. update, rebuttal and/or apology is NOT adequate, post is NOT cured
+
+3. **If and when more than 20% of post viewers respond, and more than a 2/3 supermajority of them (66%) choose options 1 or 2**, the coin penalty is removed, and post visibility is restored and warning removed.
+
 ## Admin Moderation
 
 Site administrators can unilaterally and without recourse take action upon a single occurence of the following, whether flagged by users or found via our own manual or automated procedures (e.g. AI-powered image classification)
